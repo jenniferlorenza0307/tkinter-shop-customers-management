@@ -260,13 +260,13 @@ font2 = ("Lucida Sans", 10)
 # Root window
 root = tk.Tk()
 root.title("Minishopp - Customer Relationship Management")
-icon = tk.PhotoImage(file="./supplementary/shop_management/minishopp-icon.png")
+icon = tk.PhotoImage(file="./shop_management/minishopp-icon.png")
 root.iconphoto(True, icon)
 root.geometry("1024x800")
 root.configure(background=clr1)
 
 # Load Minishopp logo
-logo = ImageTk.PhotoImage(Image.open("./supplementary/shop_management/minishopp.png"))
+logo = ImageTk.PhotoImage(Image.open("./shop_management/minishopp.png"))
 logo_label = tk.Label(root, image=logo, background=clr1)
 logo_label.pack()
 
