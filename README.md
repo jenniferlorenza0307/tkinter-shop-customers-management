@@ -35,6 +35,7 @@ To get prefilled entry by ID number (oid), user is required to fill the `ID Numb
 <img src="./shop_management/ss-update-02.png" width="600" height="300" >
 
 After that, every entry is pre-filled with its original value from database. User may change any entry value accordingly. Remember that `ID Number` entry value is required as the key to update a customer data, and it is not possible to change it. Click `Update Record by ID` button to do update in database, and the updated record will re-appear in the display table.
+
 <img src="./shop_management/ss-update-03.png" width="600" height="300" >
 
 
